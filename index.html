@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"type="text/javascript"></script>
+
+    </head>
+        <body>
+            <div class="container">
+                <header>
+
+                    <section id ="logobanner">
+
+                        <h1> Trivia Quiz </h1>>
+
+                    </section>
+
+                    <div class="categoryboard">
+
+                        <div class="category" id="qst1">
+                            Entertainment
+                        </div>
+
+                        <div class="category" id="qst2">
+                            Soccer
+                        </div>
+
+                        <div class="category" id="qst3">
+                            World LeaderShip
+                        </div>
+
+                        <div class="category" id="qst4">
+                            Football
+                        </div>
+
+                        <div class="category" id="qst5">
+                            Georgraphy
+                        </div>
+                    </div>
+
+
+                </header>
+
+                <article>
+
+                    <section id ="Selecct_question_cat">
+                      <!--  <p id="msg">Select Question Category</p> -->
+                    </section>
+
+                    <section id="categoryConfirmationBoard">
+                        <div id="quizResults">
+                                <div id ="qstnDeatals">
+                            <h2>Question Details</h2>
+                            <p>Number of Question:<span id="totalQuestions"></span> </p>
+                            <p>Time Per Question: 60 Seconds</p>
+                            <p>Correct Answers:  <span id="scores">0</span> </p>
+                            <p>Skipped Questions: <span id="skipQuestions">0</span> </p>
+                            <p>Wrong Answers:  <span id="WrongAnswer">0</span> </p>
+                                </div>
+                            <button id="startTest">Start Test</button>
+                            <button id="restart">Restart Test</button>
+                        </div>
+
+                    </section>
+
+                    <section id="quizBoard">
+
+                     <div id="quizclock">
+
+                     </div>
+
+                    <div id="progressbarv">
+                        <p class="testProgress"> Question <span id="crrnNumber"> </span> of <span id="ttlqstns"></span></p>
+                    </div>
+
+                        <div id ="answerchoic">
+
+                            <div class="qtimeprogress">
+                                <div id="clock">
+                                    <p id="clockdisplay"> </p>
+                                </div>
+
+                            </div>
+
+                            <p id="question"></p>
+                            <hr>
+
+                            <div class="button">
+                                <button class="btnn" id="btn0"><span id="choice0"></span></button>
+                                <button  class="btnn" id="btn1"><span id="choice1"></span></button>
+                                <button  class="btnn"  id="btn2"><span id="choice2"></span></button>
+                                <button  class="btnn"  id="btn3"><span id="choice3"></span></button>
+                            </div>
+
+                            <div id="decision">
+                                <button  class="btnn"  id="btn4"><span id="choice4"></span></button>
+                                <!--<button id="reset" class="dcsn">Reset</button> -->
+                            </div>
+
+                            <div id="reactions">
+
+                                <div id="crrct">
+                                    <h3 class="answerresults1"> </h3>
+                                    <img src="./assets/images/goodjob.gif" class ="answerresultimg1 pictureSizer">
+                                </div>
+
+
+                                <div id="skiprlt">
+                                    <h3 class="answerresults1"> </h3>
+                                    <img src="./assets/images/outOfTime.gif" class ="answerresultimg2 pictureSizer">
+                                 </div>
+
+                                <div id="wrngrlt">
+                                    <h3 class="answerresults1"> </h3>
+                                    <img src="./assets/images/wronganswer.gif" class ="answerresultimg3 pictureSizer">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                </section>
+
+
+                </article>
+
+            </div>
+
+            <script src="./assets/javascript/Question.js"></script>
+            <script src="./assets/javascript/Quiz.js"></script>
+            <script src="./assets/javascript/app.js"></script>
+
+        </body>
+
+</html>
