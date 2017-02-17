@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8bdd82-1c98-4e08-972b-327c07ce145e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bkg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/concrete_seamless.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/correctAnswer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/entertain.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/geograpy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/goodjob.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/leaders.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/mainPage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/mainPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/nfl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/outOfTime.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/quiz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/quizlogo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/soccer.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/startBoard.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/wronganswer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/TriviaGame.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/Question.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/Quiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/app.js" afterPath="$PROJECT_DIR$/assets/javascript/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,7 +25,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
+                <state relative-caret-position="225">
                   <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding>
                     <element signature="n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -148,6 +124,7 @@
       <find>startTe</find>
       <find>Selecct_question_cat</find>
       <find>h1</find>
+      <find>cki</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,6 +138,7 @@
         <option value="$PROJECT_DIR$/assets/javascript/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -171,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-27" />
-    <option name="y" value="260" />
+    <option name="x" value="223" />
+    <option name="y" value="325" />
     <option name="width" value="2041" />
     <option name="height" value="872" />
   </component>
@@ -351,12 +329,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486936709941</updated>
       <workItem from="1486936711387" duration="28245000" />
-      <workItem from="1487051047165" duration="67497000" />
+      <workItem from="1487051047165" duration="68051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95742000" />
+    <option name="totallyTimeSpent" value="96296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,10 +346,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-27" y="260" width="2041" height="872" extended-state="0" />
+    <frame x="223" y="325" width="2041" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09257426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09257426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -514,9 +492,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
