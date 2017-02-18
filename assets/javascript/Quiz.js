@@ -10,7 +10,7 @@ function Quiz(questions){
     this.quesTionsTimedOut =0;
     this.wrongCounts =0;
     this.skipCount =0;
-
+    this.arrayCounter =0;
 }
 
 Quiz.prototype.getQuestionIndex =function(){
@@ -25,23 +25,26 @@ Quiz.prototype.quess = function (choice) {
     $(".button").hide();
     $("#decision").hide();
 
-    if(this.getQuestionIndex().getCorrectAnswer(choice)){
-        $(".answerresults1").text("Good Job");
-        $(".answerresultimg1").show();
-        console.log("THis is the answer you selected "+choice);
+
+    if(this.getQuestionIndex().getCorrectAnswer(choice)) {
+        console.log("THis is the answer you selected " + choice);
         this.score++;
+        $(".crrct").show();
+
     }
 
     else if(choice === "skip"){
-        $(".answerresults1").text("Work With Time");
-        $(".answerresultimg2").show();
+        console.log("THis is the skip you selected "+choice);
         this.skipCount++;
+        $(".skiprlt").show();
+
     }
 
     else {
-        $(".answerresults1").text("Study Some More");
-        $(".answerresultimg3").show();
+        console.log("THis is the wrong you selected "+choice);
         this.wrongCounts++;
+        $(".wrngrlt").show();
+
     }
 
     ++this.questionIndex;

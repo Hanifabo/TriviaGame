@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8bdd82-1c98-4e08-972b-327c07ce145e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/Quiz.js" afterPath="$PROJECT_DIR$/assets/javascript/Quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/app.js" afterPath="$PROJECT_DIR$/assets/javascript/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +22,21 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4569307">
+    <splitter split-orientation="horizontal" split-proportion="0.42820904">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="164">
+                  <caret line="95" column="47" lean-forward="true" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
                   <folding>
+                    <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#1;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#section#2;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#2;n#section#2;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -38,19 +45,19 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.6778063">
+        <splitter split-orientation="horizontal" split-proportion="0.5091514">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="274">
-                      <caret line="113" column="17" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+                    <state relative-caret-position="569">
+                      <caret line="283" column="22" lean-forward="false" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
                       <folding>
                         <element signature="e#37#208#0" expanded="false" />
                         <element signature="e#219#293#0" expanded="false" />
-                        <element signature="e#858#966#0" expanded="false" />
-                        <element signature="e#970#1028#0" expanded="false" />
+                        <element signature="e#792#900#0" expanded="false" />
+                        <element signature="e#904#962#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -59,14 +66,14 @@
               <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assets/javascript/app.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="138">
-                      <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+                    <state relative-caret-position="465">
+                      <caret line="153" column="38" lean-forward="false" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
                       <folding>
+                        <element signature="e#232#1133#0" expanded="false" />
                         <element signature="n#!!block;n#showScores#0" expanded="false" />
                         <element signature="n#!!block;n#skipQuestion#0" expanded="false" />
+                        <element signature="n#!!block;n#showPregress#0" expanded="false" />
                         <element signature="n#!!block;n#guessPopulate#0" expanded="false" />
-                        <element signature="n#!!block;n#myStopFunction#0" expanded="false" />
-                        <element signature="n#!!block;n#quizTimer#0" expanded="false" />
                         <element signature="n#!!block;n#clickToStartQuiz#0" expanded="false" />
                       </folding>
                     </state>
@@ -92,11 +99,11 @@
               <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/javascript/Quiz.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="185">
-                      <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                    <state relative-caret-position="83">
+                      <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="26" />
                       <folding>
                         <element signature="n#!!doc;n#Quiz#0" expanded="false" />
-                        <element signature="e#597#776#0" expanded="false" />
+                        <element signature="n#!!block;n#getNumberOfCorrectAnswers#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -122,9 +129,13 @@
       <find>clo</find>
       <find>btnn</find>
       <find>startTe</find>
+      <find>cki</find>
       <find>Selecct_question_cat</find>
       <find>h1</find>
-      <find>cki</find>
+      <find>pictureSizer</find>
+      <find>button</find>
+      <find>btn4</find>
+      <find>reactions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,11 +145,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/javascript/Question.js" />
-        <option value="$PROJECT_DIR$/assets/javascript/Quiz.js" />
-        <option value="$PROJECT_DIR$/assets/javascript/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/javascript/Quiz.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/javascript/app.js" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -149,9 +160,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="325" />
-    <option name="width" value="2041" />
+    <option name="x" value="39" />
+    <option name="y" value="134" />
+    <option name="width" value="1992" />
     <option name="height" value="872" />
   </component>
   <component name="ProjectView">
@@ -329,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486936709941</updated>
       <workItem from="1486936711387" duration="28245000" />
-      <workItem from="1487051047165" duration="68051000" />
+      <workItem from="1487051047165" duration="100725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96296000" />
+    <option name="totallyTimeSpent" value="128970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,10 +357,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="325" width="2041" height="872" extended-state="0" />
+    <frame x="39" y="134" width="1992" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09257426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09257426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -393,7 +404,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -453,45 +464,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/Quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#Quiz#0" expanded="false" />
-            <element signature="e#597#776#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#showScores#0" expanded="false" />
-            <element signature="n#!!block;n#skipQuestion#0" expanded="false" />
-            <element signature="n#!!block;n#guessPopulate#0" expanded="false" />
-            <element signature="n#!!block;n#myStopFunction#0" expanded="false" />
-            <element signature="n#!!block;n#quizTimer#0" expanded="false" />
-            <element signature="n#!!block;n#clickToStartQuiz#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="113" column="17" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
-          <folding>
-            <element signature="e#37#208#0" expanded="false" />
-            <element signature="e#219#293#0" expanded="false" />
-            <element signature="e#858#966#0" expanded="false" />
-            <element signature="e#970#1028#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -500,13 +472,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/Quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc;n#Quiz#0" expanded="false" />
+            <element signature="n#!!block;n#getNumberOfCorrectAnswers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="95" column="47" lean-forward="true" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#2;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#section#2;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="153" column="38" lean-forward="false" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+          <folding>
+            <element signature="e#232#1133#0" expanded="false" />
+            <element signature="n#!!block;n#showScores#0" expanded="false" />
+            <element signature="n#!!block;n#skipQuestion#0" expanded="false" />
+            <element signature="n#!!block;n#showPregress#0" expanded="false" />
+            <element signature="n#!!block;n#guessPopulate#0" expanded="false" />
+            <element signature="n#!!block;n#clickToStartQuiz#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="283" column="22" lean-forward="false" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#208#0" expanded="false" />
+            <element signature="e#219#293#0" expanded="false" />
+            <element signature="e#792#900#0" expanded="false" />
+            <element signature="e#904#962#0" expanded="false" />
           </folding>
         </state>
       </provider>

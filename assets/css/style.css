@@ -29,7 +29,7 @@ body{
     background-color: red;
     color:white;
 }
-#btn0, #btn1, #btn2,#btn3 ,#btn4{
+#btn0, #btn1, #btn2,#btn3{
     border-radius:10px;
     width: 250px;
     height: 30px;
@@ -40,10 +40,6 @@ body{
     background-color: black;
     opacity: 0.5;
     border: 2px solid white;
-}
-#btn4{
-    background-color: red;
-    margin-left: 77px;
 }
 
 #question{
@@ -253,14 +249,37 @@ h1{
 .pictureSizer{
     width: 420px;
     height:200px;
-    margin-left:28% ;
+    margin-left:29%;
     margin-bottom:25px ;
-    margin-left:20px;
+    box-shadow: 0px 0px 15px aqua;
 }
 
-#answerresults1{
+.answerresults1{
     font-weight: bolder;
     color: white;
     font-size: 22px;
-    margin-left:35%;
+    margin-left:45%;
+}
+
+.skipBtnn{
+    border-radius:10px;
+    width: 20px;
+    height: 30px;
+    font-size:18px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    background-color: red;
+    opacity: 0.5;
+    border: 2px solid white;
+}
+#btn4{
+    background-color: red;
+    margin-left: 77px;
+}
+#btn4s{
+    background-color: red;
+    margin-left: 30%;
+    color: white;
+    font-weight: bold;
 }

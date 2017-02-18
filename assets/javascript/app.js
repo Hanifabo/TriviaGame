@@ -1,12 +1,13 @@
 
-var total_second;
+var total_second =0;
 var t_minutes;
 var t_seconds;
 var stopTimeer;
+var questionTime=0;
 total_second = total_second*10;
 t_minutes = parseInt(total_second/60);
 t_seconds = parseInt(total_second%60);
-
+var secondTimeOut;
 var questions =[
 
     new Questions("Where was the 1986 World Cup held?",["Ghana","England","Mexico","USA","skip"],"Mexico",60),
@@ -30,9 +31,7 @@ function populate(){
     }
 
     else {
-        console.log("THIS IS THE QUESTION NUMBER: "+quiz.questionIndex+"  and the number of questions are: "+quiz.questions.length);
-        $(".answerresults1").hide();
-        $(".pictureSizer").hide();
+        console.log("THIS IS THE QUESTION NUMBER");
         //show questions
         var element = document.getElementById("question");
         element.innerHTML = quiz.getQuestionIndex().text;
@@ -40,18 +39,23 @@ function populate(){
         console.log("THE QUESTION INDEX BEFORE LOOP")
         var maltchoice = quiz.getQuestionIndex().choice;
 
-        total_second = quiz.getQuestionIndex().quizTime;
-        console.log("Questin selected time:  "+total_second);
-
         for(var i =0; i < maltchoice.length; i++){
+            quiz.arrayCounter =i;
+            total_second = quiz.getQuestionIndex().quizTime;
+            console.log("QUESTION TIME:  "+total_second);
+
             var element = document.getElementById("choice"+i);
             element.innerHTML = maltchoice[i];
             $(".button").show();
             $("#decision").show();
             console.log(maltchoice[i]);
 
-            quizTimer("btn"+i, maltchoice[i]);
+            console.log("THE IS THE INCREAMENTOR COUNT"+ i);
+
             showPregress();
+            quizTimer("btn"+i, maltchoice[i]);
+            $("#clock").show();
+
         }
 
     }
@@ -86,13 +90,12 @@ function  showScores() {
 
 }
 
-function skipQuestion() {
+function skipQuestion(guessed) {
     var button = document.getElementById("btn4");
     button.click();
-
-    myStopFunction();
     console.log("QUESTION SKIPPED");
-    populate();
+    //populate();
+    guessPopulate(guessed);
 }
 
 function showPregress() {
@@ -104,40 +107,65 @@ function showPregress() {
 }
 
 function guessPopulate(guessed) {
+
     quiz.quess(guessed);
-    myStopFunction();
-    $("#answerresults1").hide();
-    $(".answerresultimg").hide();
-    populate();
-}
-
-function myStopFunction() {
     clearTimeout(stopTimeer);
-    total_second = 0;
+
+    secondTimeOut = setTimeout(function () {
+        $(".crrct, .skiprlt, .wrngrlt ").hide();
+        total_second =0;
+        populate();
+    },1500);
+
+    //clearTimeout(secondTimeOut);
+
+
+
 }
 
+function waitToDisplay() {
+
+}
 function quizTimer(id,guessed) {
+    $("#btn4").hide();
+    $("#btn4s").hide();
+        var showTime = document.getElementById("clockdisplay");
+        showTime.innerHTML = t_seconds + " seconds remains";
 
-    var showTime = document.getElementById("clockdisplay");
-    showTime.innerHTML = t_seconds+" seconds remains";
+        var button = document.getElementById(id);
+        button.onclick= function () {
+            $("#clock").hide();
+            guessPopulate(guessed);
+        }
 
-    var button = document.getElementById(id);
+        if (total_second <= 0) {
+            clearTimeout(stopTimeer );
+            $("#btn4s").show();
+            $("#clock").hide();
+            $("#timeOut").show();
+            $(".skiprlt").show();
+            $(".button").hide();
+            $("#btn4").hide();
 
-    if(button){
-        button.addEventListener("click", function(){guessPopulate(guessed)}, false);
-    }
+            var timedOutbutton = document.getElementById("btn4s");
+            timedOutbutton.onclick= function () {
+                $("#btn4s").hide();
+                $(".skiprlt").hide();
+                guessPopulate("skip");
+            }
 
-    if(total_second <= 0){
-        skipQuestion(guessed);
 
-    }else{
+        } else {
+            total_second = total_second - 1;
+            t_minutes = parseInt(total_second / 60);
+            t_seconds = parseInt(total_second % 60);
 
-        total_second = total_second -1;
-        t_minutes = parseInt(total_second/60);
-        t_seconds = parseInt(total_second%60);
-        stopTimeer = setTimeout("quizTimer()",1000);
+            stopTimeer =   setTimeout(function() {
+                quizTimer(id,guessed);
+            }, 1000);
 
-    }
+        }
+
 
 }
 
@@ -151,18 +179,21 @@ function clickToStartQuiz() {
     };
 }
 
-$("#quizBoard").hide();
-$("#restart").hide();
-$("#qstnDeatals").hide();
+$(document).ready(function () {
+    $("#quizBoard").hide();
+    $("#restart").hide();
+    $("#qstnDeatals").hide();
+    $(".crrct, .skiprlt, .wrngrlt ").hide();
+    $("#timeOut").hide();
 
-$(".answerresults1").hide();
-$(".answerresultimg1").hide();
-$(".answerresultimg2").hide();
-$(".answerresultimg3").hide();
+
+});
 
 clickToStartQuiz();
 
 var button = document.getElementById("restart");
+
 button.onclick = function(){
 location.reload();
 };
+
